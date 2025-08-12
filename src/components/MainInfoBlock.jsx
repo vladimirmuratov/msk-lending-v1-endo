@@ -32,7 +32,7 @@ export const MainInfoBlock = memo(() => {
                 </Typography>
 
                 <Typography component="p" sx={{ fontSize: { xs: 18, sm: 20 }, color: 'var(--main-color)', }}>
-                    Мы организуем проведение <Box component="span" sx={{ color: 'var(--red)', fontWeight: 400 }}>эндопротезирование
+                    Мы организуем проведение <Box component="span" sx={{ color: 'var(--red)', fontWeight: 400 }}>эндопротезирования
                     коленного и тазобедренного суставов</Box> в Москве с использованием
                     роботизированной хирургии. Это новейший метод, который обеспечивает идеальную точность установки
                     эндопротеза, минимальную травматичность и быстрое возвращение к активной жизни.
