@@ -1,6 +1,5 @@
 import { Banner } from '@/components/Banner';
 import { WhyWeBlock } from '@/components/WhyWeBlock';
-import { PartnersBlock } from '@/components/PartnersBlock';
 import { ContactsBlock } from '@/components/ContactsBlock';
 import { FormAction } from '@/components/FormAction';
 import { MainInfoBlock } from '@/components/MainInfoBlock';
@@ -22,8 +21,9 @@ export default function Home() {
             {/*<DirectionsOfHospitalizationBlock />*/}
             {/*<BaseAccordion id="faq" title="Частые вопросы" items={faq} />*/}
             <CoordinatorBlock />
-            <PartnersBlock />
-            <PhoneBlock text='Позвоните нам прямо сейчас — мы подберём удобную дату операции и расскажем о доступных вариантах протезов' />
+            {/*<PartnersBlock />*/}
+            <PhoneBlock
+                text="Позвоните нам прямо сейчас — мы подберём удобную дату операции и расскажем о доступных вариантах протезов" />
             {/*<BaseAccordion id="service" title="Услуги" items={services} />*/}
             {/*<TextBlock text={text1} />*/}
             <ContactsBlock />
