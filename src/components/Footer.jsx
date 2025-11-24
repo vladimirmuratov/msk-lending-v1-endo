@@ -11,10 +11,10 @@ export const Footer = () => {
                 flexDirection: { xs: 'column', sm: 'row' },
                 justifyContent: 'space-between',
                 alignItems: 'center',
-                paddingX: {xs: '20px', sm: '32px'},
+                paddingX: { xs: '20px', sm: '32px' },
                 paddingY: '20px'
             }}>
-            <Box sx={{color: 'var(--main-color)', display: 'flex', alignItems: 'center', gap: '10px'}}>
+            <Box sx={{ color: 'var(--main-color)', display: 'flex', alignItems: 'center', gap: '10px' }}>
                 <Typography
                     sx={{
                         fontSize: '20px',
@@ -32,7 +32,7 @@ export const Footer = () => {
                 flexDirection: 'column',
                 alignItems: { xs: 'center', sm: 'flex-end' }
             }}>
-                <Typography sx={{ fontSize: '14px' }}>г. Москва, Мичуринский пр-т, д. 6</Typography>
+                {/*<Typography sx={{ fontSize: '14px' }}>г. Москва, Мичуринский пр-т, д. 6</Typography>*/}
                 <Typography sx={{ fontSize: '14px' }}>{phoneNumber}</Typography>
             </Box>
         </Box>
