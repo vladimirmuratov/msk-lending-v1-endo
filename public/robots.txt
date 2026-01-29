@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://endo.mskdoctor.ru/sitemap.xml
+Sitemap: https://msk-endo.vercel.app/sitemap.xml
