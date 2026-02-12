@@ -1,6 +1,6 @@
 import { Box, Link, Typography } from '@mui/material';
 import { email, phoneNumber, phoneNumber2 } from '@/config';
-import LocalPhoneOutlinedIcon from '@mui/icons-material/LocalPhoneOutlined';
+import CallIcon from '@mui/icons-material/Call';
 import AlternateEmailIcon from '@mui/icons-material/AlternateEmail';
 import SocialBlock from '@/components/SocialBlock';
 import { memo } from 'react';
@@ -35,7 +35,7 @@ export const ContactsBlock = memo(() => {
                     </Box>*/}
 
                     <Box sx={{ display: 'flex', gap: '10px' }}>
-                        <LocalPhoneOutlinedIcon sx={{ color: 'var(--red)' }} />
+                        <CallIcon sx={{ color: 'var(--red)' }} />
                         <Box sx={{ display: 'flex', flexDirection: 'column', gap: '5px' }}>
                             <Link href={`tel:${phoneNumber}`}
                                   sx={{ fontSize: { xs: '14px', sm: '16px' } }}>{phoneNumber}</Link>
